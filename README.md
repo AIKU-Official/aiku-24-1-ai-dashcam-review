@@ -10,11 +10,6 @@
 ![](https://github.com/AIKU-Official/aiku-24-1-ai-dashcam-review/assets/63688973/a0ac842d-1ceb-4d13-a9a4-f94c1dc1edf5) <!-- intro image -->
 
 ## 방법론
-(문제를 정의하고 이를 해결한 방법을 가독성 있게 설명해주세요)
-
-### Architecture
-![](https://github.com/AIKU-Official/aiku-24-1-ai-dashcam-review/assets/63688973/4c3a21e7-8485-45a8-a0a3-6fd6360fb1f4) <!-- architecture image -->
-
 Video recognition deep learning (3DCNN + LSTM)
 - 블랙박스 영상에 대해 사고 원인과 발생 부분에 해당하는 주요 영상을 추출한다. 추출한 영상에 대해 사고 상황을 딥러닝을 이용하여 분석하고, 과실 비율을 산정한다.
 - 사용 모델
@@ -25,8 +20,11 @@ Video recognition deep learning (3DCNN + LSTM)
         - Full frame과 soft attention으로 Dynamic Spatial Attentino 수행
         - LSTM 기반 사고를 최대한 빠르게 예측
 
+### Architecture
+![](https://github.com/AIKU-Official/aiku-24-1-ai-dashcam-review/assets/63688973/4c3a21e7-8485-45a8-a0a3-6fd6360fb1f4) <!-- architecture image -->
+
 ### Dataset
-![**Anticipating Accidents in Dashcam Videos**](https://aliensunmin.github.io/project/dashcam/)
+[**Anticipating Accidents in Dashcam Videos**](https://aliensunmin.github.io/project/dashcam/)
 해외 Dashcam video 영상 데이터
 ![](https://github.com/AIKU-Official/aiku-24-1-ai-dashcam-review/assets/63688973/a1ed8ea6-262f-47a9-993d-19ee42e3c4fb) <!-- dataset example image -->
 ![](https://github.com/AIKU-Official/aiku-24-1-ai-dashcam-review/assets/63688973/3d8bd99c-7ce8-4957-9fa0-c1d09909ed08) <!-- table -->
